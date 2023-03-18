@@ -1,0 +1,73 @@
+package geral;
+
+public class Quadrado extends FormaBidimensional {
+	
+	private double lado;
+	public int Lado;
+	public String Cor;
+	public String CorBorda;
+	public double espBorda;
+	public double Area;
+	public double Perimetro;
+
+	@SuppressWarnings("unused")
+	private double getLado() {
+		return lado;
+	}
+
+	@SuppressWarnings("unused")
+	private void setLado(double lado) {
+		this.lado = lado;
+	}
+
+	public String getCor() {
+		return Cor;
+	}
+
+	public void setCor(String cor) {
+		Cor = cor;
+	}
+
+	public String getCorBorda() {
+		return CorBorda;
+	}
+
+	public void setCorBorda(String corBorda) {
+		CorBorda = corBorda;
+	}
+
+	public double getEspBorda() {
+		return espBorda;
+	}
+
+	public void setEspBorda(double espBorda) {
+		this.espBorda = espBorda;
+	}
+
+	public double getArea() {
+		return Area;
+	}
+
+	public void setArea(double area) {
+		Area = area;
+	}
+
+	public double getPerimetro() {
+		return Perimetro;
+	}
+
+	public void setPerimetro(double perimetro) {
+		Perimetro = perimetro;
+	}
+
+	public void setLado(int lado) {
+		Lado = lado;
+	}
+
+	@Override
+	public String toString() {
+		return "Quadrado [lado=" + lado + ", Lado=" + Lado + ", Cor=" + Cor + ", CorBorda=" + CorBorda + ", espBorda="
+				+ espBorda + ", Area=" + Area + ", Perimetro=" + Perimetro + "]";
+	}
+
+}

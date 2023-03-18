@@ -1,0 +1,31 @@
+package geral;
+
+public class Quadrado extends FormaBidimensional {
+
+    private double lado;
+    public double Area;
+    public double Perimetro;
+
+    public Quadrado(double lado) {
+        super(); // chama o construtor padrão da classe pai, se existir
+        setLado(lado);
+    }
+
+    public Quadrado(double lado, String cor, String corDaBorda, double espessuraDaBorda) {
+        super(cor, corDaBorda, espessuraDaBorda); // chama o construtor de FormaBidimensional que espera uma cor da borda, uma espessura da borda e uma cor para a forma
+        setLado(lado);
+    }
+
+    private double getLado() {
+        return lado;
+    }
+
+    private void setLado(double lado) {
+        if (lado >= 0) {
+            Area = lado * lado;
+            Perimetro = lado * 4;
+            this.lado = lado;
+        }
+    }
+}
+

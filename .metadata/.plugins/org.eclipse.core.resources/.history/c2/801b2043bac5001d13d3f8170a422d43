@@ -1,0 +1,12 @@
+private abstract class Forma {
+	
+	private String cor;
+
+	private String getCor() {
+		return cor;
+	}
+	
+	private void setCor(String cor) {
+		this.cor = cor;
+	}
+}

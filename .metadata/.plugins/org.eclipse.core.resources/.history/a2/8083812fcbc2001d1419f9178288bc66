@@ -1,0 +1,71 @@
+package geral;
+
+abstract class FormaBidimensional {
+	this.Cor ="preto";
+	}
+	
+	private String CorDaBorda;
+	private double EspessuraDaBorda;
+	public String Cor;
+	public String corBorda;
+	public double espBorda;
+	public double Area;
+	public double Perimetro;
+	
+	public String getCorDaBorda() {
+		return CorDaBorda;
+	}
+	
+	public void setCorDaBorda(String corDaBorda) {
+		this.CorDaBorda = corDaBorda;
+	}
+	
+	public double getEspessuraDaBorda() {
+		return EspessuraDaBorda;
+	}
+	
+	public void setEspessuraDaBorda(double espessuraDaBorda) {
+		this.EspessuraDaBorda = espessuraDaBorda;
+	}
+
+	public String getCor() {
+		return Cor;
+	}
+
+	public void setCor(String cor) {
+		Cor = cor;
+	}
+
+	public String getCorBorda() {
+		return corBorda;
+	}
+
+	public void setCorBorda(String corBorda) {
+		this.corBorda = corBorda;
+	}
+
+	public double getEspBorda() {
+		return espBorda;
+	}
+
+	public void setEspBorda(double espBorda) {
+		this.espBorda = espBorda;
+	}
+
+	@Override
+	public String toString() {
+		return "FormaBidimensional [CorDaBorda=" + CorDaBorda + ", EspessuraDaBorda=" + EspessuraDaBorda + ", Cor="
+				+ Cor + ", corBorda=" + corBorda + ", espBorda=" + espBorda + "]";
+	}
+
+	public double getArea() {
+		return Area;
+	}
+
+	public double getPerimetro() {
+		return Perimetro;
+	}
+
+}
+	
+

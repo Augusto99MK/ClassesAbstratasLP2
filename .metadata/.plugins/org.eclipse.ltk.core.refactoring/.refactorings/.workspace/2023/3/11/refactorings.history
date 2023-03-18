@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;ExemploAula-LP2-ClasseAbstrata-Syscad-main&apos;" deleteContents="false" description="Delete resource &apos;ExemploAula-LP2-ClasseAbstrata-Syscad-main&apos;" element1="/ExemploAula-LP2-ClasseAbstrata-Syscad-main" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1678823075625"/>&#x0A;<refactoring comment="Delete resource &apos;AulaClassesAbstratas32215&apos;" deleteContents="false" description="Delete resource &apos;AulaClassesAbstratas32215&apos;" element1="/AulaClassesAbstratas32215" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1678823098406"/>
+</session>

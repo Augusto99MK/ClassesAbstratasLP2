@@ -1,0 +1,55 @@
+package geral;
+
+abstract class FormaBidimensional {
+	this.cor ="preto";
+	}
+	
+	private String corDaBorda;
+	private double espessuraDaBorda;
+	public String cor;
+	public String corBorda;
+	public double espBorda;
+	
+	public String getCorDaBorda() {
+		return corDaBorda;
+	}
+	
+	public void setCorDaBorda(String corDaBorda) {
+		this.corDaBorda = corDaBorda;
+	}
+	
+	public double getEspessuraDaBorda() {
+		return espessuraDaBorda;
+	}
+	
+	public void setEspessuraDaBorda(double espessuraDaBorda) {
+		this.espessuraDaBorda = espessuraDaBorda;
+	}
+
+	public String getCor() {
+		return cor;
+	}
+
+	public void setCor(String cor) {
+		this.cor = cor;
+	}
+
+	public String getCorBorda() {
+		return corBorda;
+	}
+
+	public void setCorBorda(String corBorda) {
+		this.corBorda = corBorda;
+	}
+
+	public double getEspBorda() {
+		return espBorda;
+	}
+
+	public void setEspBorda(double espBorda) {
+		this.espBorda = espBorda;
+	}
+
+}
+	
+

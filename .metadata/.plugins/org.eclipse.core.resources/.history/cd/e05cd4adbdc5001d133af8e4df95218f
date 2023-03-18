@@ -1,0 +1,41 @@
+package view;
+
+public class Programa {
+
+    public static void main(String[] args) {
+        // Cria um quadrado com lado 5
+        Quadrado quadrado = new Quadrado(5);
+        // Define a cor da borda do quadrado como "vermelho"
+        quadrado.setCorDaBorda("vermelho");
+        // Define a espessura da borda do quadrado como 1.5
+        quadrado.setEspessuraDaBorda(1.5);
+        // Imprime a área do quadrado
+        System.out.println("Área do quadrado: " + quadrado.getArea());
+        // Imprime o perímetro do quadrado
+        System.out.println("Perímetro do quadrado: " + quadrado.getPerimetro());
+        // Imprime a cor da borda do quadrado
+        System.out.println("Cor da borda do quadrado: " + quadrado.getCorDaBorda());
+        // Imprime a espessura da borda do quadrado
+        System.out.println("Espessura da borda do quadrado: " + quadrado.getEspessuraDaBorda());
+        // Imprime uma representação em string do quadrado
+        System.out.println("Quadrado: " + quadrado.toString());
+        
+        // Cria um círculo com raio 3
+        Circulo circulo = new Circulo(3);
+        // Define a cor da borda do círculo como "azul"
+        circulo.setCorDaBorda("azul");
+        // Define a espessura da borda do círculo como 2.0
+        circulo.setEspessuraDaBorda(2.0);
+        // Imprime a área do círculo
+        System.out.println("Área do círculo: " + circulo.getArea());
+        // Imprime o perímetro do círculo
+        System.out.println("Perímetro do círculo: " + circulo.getPerimetro());
+        // Imprime a cor da borda do círculo
+        System.out.println("Cor da borda do círculo: " + circulo.getCorDaBorda());
+        // Imprime a espessura da borda do círculo
+        System.out.println("Espessura da borda do círculo: " + circulo.getEspessuraDaBorda());
+        // Imprime uma representação em string do círculo
+        System.out.println("Círculo: " + circulo.toString());
+    }
+
+}

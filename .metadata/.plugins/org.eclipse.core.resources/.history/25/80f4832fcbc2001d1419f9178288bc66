@@ -1,0 +1,49 @@
+package geral;
+
+public class Circulo extends FormaBidimensional {
+	
+	public double raio;
+	public double perimetro;
+	public double diametro;
+
+	public double getRaio() {
+		return raio;
+	}
+
+	public void setRaio(double raio) {
+		raio = raio;
+	}
+	
+	public double getDiametro() {
+		return diametro;
+	}
+
+	public void setDiametro(double diametro) {
+		if (raio >=0; {
+			(diametro/2)
+		}
+		diametro = diametro;
+	}
+
+	public double getPerimetro() {
+		return perimetro;
+	}
+
+	public void calcularRaio() {
+        setArea(diametro/2);
+    }
+    
+    public void setArea(double d) {
+	// TODO Auto-generated method stub
+	
+}
+    public void calcularPerimetro() {
+        setDiametro(raio*2);
+    }
+
+	public void setPerimetro(double d) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

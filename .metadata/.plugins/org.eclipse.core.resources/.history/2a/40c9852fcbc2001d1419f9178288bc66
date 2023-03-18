@@ -1,0 +1,12 @@
+abstract class Forma {
+	
+	private String Cor;
+
+	private String getCor() {
+		return Cor;
+	}
+	
+	private void setCor(String Cor) {
+		this.Cor = Cor;
+	}
+}

@@ -1,0 +1,21 @@
+package geral;
+
+public class Quadrado extends FormaBidimensional {
+	
+	private double lado;
+	public double Area;
+	public double Perimetro;
+
+
+	private double getlado() {
+		return lado;
+	}
+
+	private void setlado(double lado) {
+		if (lado >=0) {
+			Area=lado*lado;
+			Perimetro= lado*4;
+			this.lado = lado;
+		}
+	}
+}
